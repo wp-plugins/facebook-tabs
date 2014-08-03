@@ -34,8 +34,11 @@ class HelpersFacebookTabs{
         $data = "";
         
         $data .= "  
-<div class='fb-activity' data-site='$activityurl' data-action='likes, recommends' data-width='$width' data-height='$height' data-colorscheme='$colorscheme' data-header='false'></div>
-";
+<div class='fb-activity' data-site='$activityurl' data-action='likes, recommends' data-width='$width' data-height='$height' data-colorscheme='$colorscheme' data-header='false'></div>";
+$support_width = $width-100;
+$data .= "<div class='author' style='font-size:9px; padding-left: $support_width";
+$data .= "px; text-decoration: none; color:#ccc;'><a href='//www.visualscope.com' title='visualscope.com' target='_blank'>Visualscope</a></div>";
+ 
         echo $data;
         return;
     }

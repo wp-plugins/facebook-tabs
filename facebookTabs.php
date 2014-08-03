@@ -115,16 +115,17 @@ class FacebookTabs extends WP_Widget{
   <div class="tab-pane active" id="facebooklike">
       <?php $display_fb->display_facebook_likebox($likeboxurl, $width, $height, $colorscheme, 'true', 'false'); ?>
   </div>
+  
   <div class="tab-pane" id="facebookstream">
       <?php $display_fb->display_facebook_likebox($likeboxurl, $width, $height, $colorscheme, 'false', 'true'); ?>
   </div>
+  
   <div class="tab-pane" id="facebookactivity">
       <?php $display_fb->display_facebook_activity($activityurl,$width,$height,$colorscheme); ?>
   </div>
 </div>
 <?php
-        echo $after_widget;
-        
+        echo $after_widget; 
     }
 }
 //start registering the extension

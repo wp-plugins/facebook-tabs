@@ -11,7 +11,7 @@ Responsive Facebook Tabs for Wordpress. Displays - Facebook Likebox, Facebook St
 
 Facebook is a highly used social networking site that is used by millions of individuals and firms for different purposes. Although many people use it mainly for interacting with their known ones, there are individuals and companies that use it for advertisement and promotion of their products. Whatever is the primary motive, i.e. business or entertainment, the features and functions are availed by every member of this social networking website. There are several Facebook tabs under which different sections of every profile are categorized. This categorization makes it simple for the members to find what they look for. 
 
-Several extensions and plugins are available for the website so that the details and activities can be easily tracked by every user. Facebook Tabs offer three different sections to provide details and updates of the respective functions in Facebook. Needless to say that every member of the social networking site has a friend list and the activities of these friends can be tracked by the member. But, the tabs are quite complicated because everything is managed in the same page.
+Several extensions and plugins are available for the website so that the details and activities can be easily tracked by every user and get the users back again on the website. Facebook Tabs offer three different sections to provide details and updates of the respective functions in Facebook. Needless to say that every member of the social networking site has a friend list and the activities of these friends can be tracked by the member. But, the tabs are quite complicated because everything is managed in the same page.
 
 Our Facebook Tabs has three different display:
 
