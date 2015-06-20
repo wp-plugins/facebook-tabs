@@ -75,15 +75,6 @@ class FacebookTabs extends WP_Widget{
             name="<?php echo $this->get_field_name('height');?>"
             value="<?php echo !empty($height) ? $height : "300"; ?>" />
     </p>
-    <p>
-        <label for="<?php echo $this->get_field_id( 'colorscheme' ); ?>">Color Scheme</label> 
-        <select id="<?php echo $this->get_field_id( 'colorscheme' ); ?>"
-            name="<?php echo $this->get_field_name( 'colorscheme' ); ?>"
-            class="widefat" style="width:100%;">
-                <option value="light" <?php if ($colorscheme == 'light') echo 'selected="light"'; ?> >Light</option>
-                <option value="dark" <?php if ($colorscheme == 'dark') echo 'selected="dark"'; ?> >Dark</option>
-        </select>
-    </p>
 <?php
     }
     public function widget($args, $instance) {
@@ -97,7 +88,7 @@ class FacebookTabs extends WP_Widget{
         if(empty($activityurl)) $activityurl = "developers.facebook.com";
         if(empty($width)) $width = "300";
         if(empty($height)) $height = "300";
-        if(empty($colorscheme)) $colorscheme = "light";
+        if(empty($colorscheme)) $colorscheme = true;
         echo $before_widget;
         echo $before_title . $title . $after_title;
         require_once('helpers.php');
